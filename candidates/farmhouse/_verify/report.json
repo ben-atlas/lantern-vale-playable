@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 33,
+  "tris": 888,
+  "materials": 8,
+  "size": [
+   5.5,
+   5.78,
+   4.763
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.0156
+   },
+   "right": {
+    "coverage": 0.6685,
+    "edgeDensity": 0.0374
+   },
+   "back": {
+    "coverage": 1,
+    "edgeDensity": 0.0183
+   },
+   "left": {
+    "coverage": 0.6698,
+    "edgeDensity": 0.0417
+   }
+  },
+  "error": null,
+  "name": "farmhouse_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 34,
+  "tris": 660,
+  "materials": 8,
+  "size": [
+   5.8,
+   5.382,
+   5.01
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0.245
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.0249
+   },
+   "right": {
+    "coverage": 0.8754,
+    "edgeDensity": 0.0204
+   },
+   "back": {
+    "coverage": 0.9844,
+    "edgeDensity": 0.024
+   },
+   "left": {
+    "coverage": 0.8754,
+    "edgeDensity": 0.0233
+   }
+  },
+  "error": null,
+  "name": "farmhouse_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 38,
+  "tris": 1052,
+  "materials": 8,
+  "size": [
+   5.6,
+   5.358,
+   4.8
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.0312
+   },
+   "right": {
+    "coverage": 0.8844,
+    "edgeDensity": 0.0162
+   },
+   "back": {
+    "coverage": 1,
+    "edgeDensity": 0.0449
+   },
+   "left": {
+    "coverage": 0.8754,
+    "edgeDensity": 0.0216
+   }
+  },
+  "error": null,
+  "name": "farmhouse_c",
+  "problems": []
+ }
+]

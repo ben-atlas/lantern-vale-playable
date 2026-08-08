@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 23,
+  "tris": 1088,
+  "materials": 23,
+  "size": [
+   0.98,
+   1.785,
+   0.86
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3631,
+    "edgeDensity": 0.1487
+   },
+   "right": {
+    "coverage": 0.2621,
+    "edgeDensity": 0.1767
+   },
+   "back": {
+    "coverage": 0.3523,
+    "edgeDensity": 0.1333
+   },
+   "left": {
+    "coverage": 0.262,
+    "edgeDensity": 0.1692
+   }
+  },
+  "error": null,
+  "name": "player_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 24,
+  "tris": 1986,
+  "materials": 7,
+  "size": [
+   1.017,
+   1.79,
+   0.816
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0.003
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3465,
+    "edgeDensity": 0.157
+   },
+   "right": {
+    "coverage": 0.2714,
+    "edgeDensity": 0.1764
+   },
+   "back": {
+    "coverage": 0.3445,
+    "edgeDensity": 0.1228
+   },
+   "left": {
+    "coverage": 0.2712,
+    "edgeDensity": 0.1682
+   }
+  },
+  "error": null,
+  "name": "player_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 25,
+  "tris": 1102,
+  "materials": 25,
+  "size": [
+   1.013,
+   1.805,
+   0.86
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.003,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3755,
+    "edgeDensity": 0.1591
+   },
+   "right": {
+    "coverage": 0.3082,
+    "edgeDensity": 0.1698
+   },
+   "back": {
+    "coverage": 0.3671,
+    "edgeDensity": 0.1471
+   },
+   "left": {
+    "coverage": 0.3074,
+    "edgeDensity": 0.161
+   }
+  },
+  "error": null,
+  "name": "player_c",
+  "problems": []
+ }
+]

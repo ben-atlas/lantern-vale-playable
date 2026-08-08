@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lantern Vale</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='25' font-size='25'>🏮</text></svg>">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./shop.css">
+</head>
+<body>
+  <canvas id="world" aria-label="Lantern Vale game world"></canvas>
+  <div id="shade"></div>
+  <div id="weather-fx" aria-hidden="true"></div>
+  <div id="day-transition" role="status"><strong></strong><span></span></div>
+  <header id="hud">
+    <section><strong id="day">Day 1</strong><span id="clock">06:00</span><span id="weather">Clear</span></section>
+    <section class="right"><span id="money">250g</span><span id="stamina">Stamina 100</span></section>
+  </header>
+  <aside id="tool"><small>TOOL</small><strong id="tool-name">Hoe</strong><span id="seed-count"></span></aside>
+  <aside id="quest"><small>LANTERN REPAIR</small><strong id="quest-title"></strong><span id="quest-progress"></span></aside>
+  <div id="prompt" role="status"></div>
+  <div id="toast" role="status"></div>
+  <div id="shop" aria-label="Rowan and Root shop">
+    <div class="shop-card"><button class="close" data-close aria-label="Close shop">×</button>
+      <p class="eyebrow">WILLOW STREET</p><h2>Rowan &amp; Root</h2><strong id="shop-money">Purse: 250g</strong>
+      <h3>Seeds</h3><div id="shop-stock" class="shop-grid"></div>
+      <h3>Sell from satchel</h3><div id="inventory" class="shop-grid"></div>
+    </div>
+  </div>
+  <div id="pause" aria-label="Pause and settings menu">
+    <div class="pause-card"><p class="eyebrow">THE VALE IS WAITING</p><h2>Paused</h2>
+      <div class="pause-actions"><button data-resume>Resume</button><button data-save>Save game</button><button data-load>Load game</button></div>
+      <h3>Accessibility &amp; audio</h3>
+      <label><input type="checkbox" data-setting="reducedMotion"> Reduced motion</label>
+      <label><input type="checkbox" data-setting="cameraShake"> Camera shake</label>
+      <label>Master volume <input type="range" min="0" max="100" data-setting="master"></label>
+      <label>Music <input type="range" min="0" max="100" data-setting="music"></label>
+      <label>Effects <input type="range" min="0" max="100" data-setting="effects"></label>
+      <small>Escape closes · settings save automatically</small>
+    </div>
+  </div>
+  <div id="social" aria-label="Villager conversation"><div class="social-card"><button class="close" data-social-close aria-label="Close conversation">×</button><p class="eyebrow">VALE NEIGHBOR</p><h2 id="social-name"></h2><p id="social-text"></p><p id="social-friendship"></p><div class="social-actions"><button data-talk>Talk</button><button data-turnin>Offer quest items</button></div><h3>Give from satchel</h3><div id="gift-stock" class="shop-grid"></div><small>Escape closes · one gift per villager each day</small></div></div>
+  <div id="ceremony" role="dialog" aria-label="Lantern lighting ceremony"><div class="ceremony-card"><p class="eyebrow">HARVEST MOON</p><h2>The Vale Alight</h2><p>Mara raises the restored lens. One by one, your neighbors add their flame, and the old river lantern spills gold across the water.</p><strong>Lantern Vale remembers your kindness.</strong><button data-ceremony-close>Continue the season</button></div></div>
+  <div id="intro">
+    <div class="card">
+      <p class="eyebrow">A LITTLE FARMING STORY</p>
+      <h1>Lantern Vale</h1>
+      <p>Restore the river lantern before the Harvest Moon. Begin by bringing the old farm back to life.</p>
+      <button id="begin">Enter the Vale</button>
+      <p class="keys">Move WASD / arrows · Interact E · Fish F · Cycle tool Q · Seeds 1–8 · Jog Shift · Sleep at farmhouse</p>
+    </div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

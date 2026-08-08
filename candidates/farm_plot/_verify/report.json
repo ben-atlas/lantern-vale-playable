@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 23,
+  "tris": 336,
+  "materials": 3,
+  "size": [
+   3.6,
+   0.714,
+   3.6
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.5766,
+    "edgeDensity": 0.0884
+   },
+   "right": {
+    "coverage": 0.5743,
+    "edgeDensity": 0.1428
+   },
+   "back": {
+    "coverage": 0.5754,
+    "edgeDensity": 0.1041
+   },
+   "left": {
+    "coverage": 0.5743,
+    "edgeDensity": 0.1527
+   }
+  },
+  "error": null,
+  "name": "farm_plot_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 15,
+  "tris": 282,
+  "materials": 5,
+  "size": [
+   3.7,
+   1.195,
+   3.7
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.5891,
+    "edgeDensity": 0.0873
+   },
+   "right": {
+    "coverage": 0.5818,
+    "edgeDensity": 0.123
+   },
+   "back": {
+    "coverage": 0.6001,
+    "edgeDensity": 0.0962
+   },
+   "left": {
+    "coverage": 0.5912,
+    "edgeDensity": 0.1506
+   }
+  },
+  "error": null,
+  "name": "farm_plot_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 30,
+  "tris": 448,
+  "materials": 5,
+  "size": [
+   3.75,
+   1.08,
+   3.75
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.6237,
+    "edgeDensity": 0.1538
+   },
+   "right": {
+    "coverage": 0.6182,
+    "edgeDensity": 0.1107
+   },
+   "back": {
+    "coverage": 0.6141,
+    "edgeDensity": 0.1746
+   },
+   "left": {
+    "coverage": 0.6141,
+    "edgeDensity": 0.1052
+   }
+  },
+  "error": null,
+  "name": "farm_plot_c",
+  "problems": []
+ }
+]

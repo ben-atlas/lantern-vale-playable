@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 33,
+  "tris": 1064,
+  "materials": 33,
+  "size": [
+   15.2,
+   8.203,
+   15.2
+  ],
+  "groundOffset": -0.163,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.5478,
+    "edgeDensity": 0.0837
+   },
+   "right": {
+    "coverage": 0.517,
+    "edgeDensity": 0.0969
+   },
+   "back": {
+    "coverage": 0.5462,
+    "edgeDensity": 0.0662
+   },
+   "left": {
+    "coverage": 0.5125,
+    "edgeDensity": 0.0835
+   }
+  },
+  "error": null,
+  "name": "forest_pond_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 39,
+  "tris": 1768,
+  "materials": 39,
+  "size": [
+   15.2,
+   6.457,
+   15.2
+  ],
+  "groundOffset": -0.094,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.5589,
+    "edgeDensity": 0.1139
+   },
+   "right": {
+    "coverage": 0.5467,
+    "edgeDensity": 0.1065
+   },
+   "back": {
+    "coverage": 0.6023,
+    "edgeDensity": 0.0786
+   },
+   "left": {
+    "coverage": 0.5519,
+    "edgeDensity": 0.0995
+   }
+  },
+  "error": null,
+  "name": "forest_pond_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 23,
+  "tris": 1296,
+  "materials": 23,
+  "size": [
+   15.2,
+   6.038,
+   15.2
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.5645,
+    "edgeDensity": 0.0867
+   },
+   "right": {
+    "coverage": 0.5399,
+    "edgeDensity": 0.0953
+   },
+   "back": {
+    "coverage": 0.5819,
+    "edgeDensity": 0.077
+   },
+   "left": {
+    "coverage": 0.5483,
+    "edgeDensity": 0.0889
+   }
+  },
+  "error": null,
+  "name": "forest_pond_c",
+  "problems": []
+ }
+]

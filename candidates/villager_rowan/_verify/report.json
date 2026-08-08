@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 20,
+  "tris": 1573,
+  "materials": 9,
+  "size": [
+   0.999,
+   1.795,
+   0.805
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.349,
+    "edgeDensity": 0.1513
+   },
+   "right": {
+    "coverage": 0.2969,
+    "edgeDensity": 0.1457
+   },
+   "back": {
+    "coverage": 0.3283,
+    "edgeDensity": 0.1164
+   },
+   "left": {
+    "coverage": 0.2967,
+    "edgeDensity": 0.1343
+   }
+  },
+  "error": null,
+  "name": "rowan_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 23,
+  "tris": 1760,
+  "materials": 10,
+  "size": [
+   0.959,
+   1.76,
+   0.817
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   -0.029
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3343,
+    "edgeDensity": 0.1531
+   },
+   "right": {
+    "coverage": 0.3138,
+    "edgeDensity": 0.152
+   },
+   "back": {
+    "coverage": 0.3183,
+    "edgeDensity": 0.1311
+   },
+   "left": {
+    "coverage": 0.3135,
+    "edgeDensity": 0.1456
+   }
+  },
+  "error": null,
+  "name": "rowan_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 22,
+  "tris": 1650,
+  "materials": 10,
+  "size": [
+   0.997,
+   1.85,
+   0.85
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2933,
+    "edgeDensity": 0.1627
+   },
+   "right": {
+    "coverage": 0.268,
+    "edgeDensity": 0.1785
+   },
+   "back": {
+    "coverage": 0.253,
+    "edgeDensity": 0.159
+   },
+   "left": {
+    "coverage": 0.2676,
+    "edgeDensity": 0.1524
+   }
+  },
+  "error": null,
+  "name": "rowan_c",
+  "problems": []
+ }
+]

@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 32,
+  "tris": 768,
+  "materials": 9,
+  "size": [
+   8,
+   7.291,
+   6.79
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.0382
+   },
+   "right": {
+    "coverage": 0.8662,
+    "edgeDensity": 0.0217
+   },
+   "back": {
+    "coverage": 0.9812,
+    "edgeDensity": 0.0183
+   },
+   "left": {
+    "coverage": 0.8661,
+    "edgeDensity": 0.0248
+   }
+  },
+  "error": null,
+  "name": "village_street_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 33,
+  "tris": 692,
+  "materials": 9,
+  "size": [
+   8,
+   7.011,
+   6.64
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0.33
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.03
+   },
+   "right": {
+    "coverage": 0.826,
+    "edgeDensity": 0.0258
+   },
+   "back": {
+    "coverage": 0.9563,
+    "edgeDensity": 0.0184
+   },
+   "left": {
+    "coverage": 0.8257,
+    "edgeDensity": 0.0284
+   }
+  },
+  "error": null,
+  "name": "village_street_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 28,
+  "tris": 580,
+  "materials": 9,
+  "size": [
+   8,
+   6.911,
+   6.675
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0.313
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.0338
+   },
+   "right": {
+    "coverage": 0.8157,
+    "edgeDensity": 0.0274
+   },
+   "back": {
+    "coverage": 0.9469,
+    "edgeDensity": 0.0268
+   },
+   "left": {
+    "coverage": 0.8153,
+    "edgeDensity": 0.0299
+   }
+  },
+  "error": null,
+  "name": "village_street_c",
+  "problems": []
+ }
+]

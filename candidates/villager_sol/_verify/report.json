@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 19,
+  "tris": 1434,
+  "materials": 8,
+  "size": [
+   1.29,
+   1.54,
+   0.709
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.056,
+   0.016
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.4471,
+    "edgeDensity": 0.1286
+   },
+   "right": {
+    "coverage": 0.3668,
+    "edgeDensity": 0.1209
+   },
+   "back": {
+    "coverage": 0.4102,
+    "edgeDensity": 0.1055
+   },
+   "left": {
+    "coverage": 0.3451,
+    "edgeDensity": 0.1087
+   }
+  },
+  "error": null,
+  "name": "sol_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 23,
+  "tris": 1598,
+  "materials": 9,
+  "size": [
+   1.122,
+   1.653,
+   0.632
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.044,
+   0.004
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3321,
+    "edgeDensity": 0.1305
+   },
+   "right": {
+    "coverage": 0.2736,
+    "edgeDensity": 0.1458
+   },
+   "back": {
+    "coverage": 0.3348,
+    "edgeDensity": 0.1263
+   },
+   "left": {
+    "coverage": 0.2554,
+    "edgeDensity": 0.1332
+   }
+  },
+  "error": null,
+  "name": "sol_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 20,
+  "tris": 1412,
+  "materials": 9,
+  "size": [
+   1.228,
+   1.61,
+   0.658
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.006,
+   0.006
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.4034,
+    "edgeDensity": 0.1142
+   },
+   "right": {
+    "coverage": 0.3272,
+    "edgeDensity": 0.1202
+   },
+   "back": {
+    "coverage": 0.4113,
+    "edgeDensity": 0.0856
+   },
+   "left": {
+    "coverage": 0.3199,
+    "edgeDensity": 0.1068
+   }
+  },
+  "error": null,
+  "name": "sol_c",
+  "problems": []
+ }
+]

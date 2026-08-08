@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 22,
+  "tris": 1332,
+  "materials": 8,
+  "size": [
+   1.14,
+   1.68,
+   0.737
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0.04,
+   0.011
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3721,
+    "edgeDensity": 0.1702
+   },
+   "right": {
+    "coverage": 0.2515,
+    "edgeDensity": 0.1736
+   },
+   "back": {
+    "coverage": 0.3783,
+    "edgeDensity": 0.1329
+   },
+   "left": {
+    "coverage": 0.263,
+    "edgeDensity": 0.1594
+   }
+  },
+  "error": null,
+  "name": "mara_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 22,
+  "tris": 1996,
+  "materials": 8,
+  "size": [
+   1.24,
+   1.84,
+   0.815
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0.05,
+   0.013
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.4016,
+    "edgeDensity": 0.1458
+   },
+   "right": {
+    "coverage": 0.2953,
+    "edgeDensity": 0.1682
+   },
+   "back": {
+    "coverage": 0.403,
+    "edgeDensity": 0.1302
+   },
+   "left": {
+    "coverage": 0.3141,
+    "edgeDensity": 0.1314
+   }
+  },
+  "error": null,
+  "name": "mara_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 16,
+  "tris": 1030,
+  "materials": 7,
+  "size": [
+   1.215,
+   1.74,
+   0.78
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0.048,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.4095,
+    "edgeDensity": 0.1453
+   },
+   "right": {
+    "coverage": 0.2714,
+    "edgeDensity": 0.1716
+   },
+   "back": {
+    "coverage": 0.4109,
+    "edgeDensity": 0.1227
+   },
+   "left": {
+    "coverage": 0.2898,
+    "edgeDensity": 0.1298
+   }
+  },
+  "error": null,
+  "name": "mara_c",
+  "problems": []
+ }
+]

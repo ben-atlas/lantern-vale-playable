@@ -1,0 +1,113 @@
+[
+ {
+  "ok": true,
+  "meshes": 19,
+  "tris": 1596,
+  "materials": 10,
+  "size": [
+   1.284,
+   1.71,
+   0.78
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3948,
+    "edgeDensity": 0.1662
+   },
+   "right": {
+    "coverage": 0.3108,
+    "edgeDensity": 0.1316
+   },
+   "back": {
+    "coverage": 0.3906,
+    "edgeDensity": 0.1272
+   },
+   "left": {
+    "coverage": 0.2624,
+    "edgeDensity": 0.1595
+   }
+  },
+  "error": null,
+  "name": "neri_a",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 24,
+  "tris": 1812,
+  "materials": 10,
+  "size": [
+   1.165,
+   1.625,
+   0.69
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.001,
+   -0.045
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3567,
+    "edgeDensity": 0.1612
+   },
+   "right": {
+    "coverage": 0.3003,
+    "edgeDensity": 0.167
+   },
+   "back": {
+    "coverage": 0.3125,
+    "edgeDensity": 0.1846
+   },
+   "left": {
+    "coverage": 0.295,
+    "edgeDensity": 0.1468
+   }
+  },
+  "error": null,
+  "name": "neri_b",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 20,
+  "tris": 1732,
+  "materials": 10,
+  "size": [
+   1.245,
+   1.695,
+   0.73
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.017,
+   0.035
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3623,
+    "edgeDensity": 0.1804
+   },
+   "right": {
+    "coverage": 0.2939,
+    "edgeDensity": 0.1798
+   },
+   "back": {
+    "coverage": 0.367,
+    "edgeDensity": 0.1464
+   },
+   "left": {
+    "coverage": 0.2931,
+    "edgeDensity": 0.1711
+   }
+  },
+  "error": null,
+  "name": "neri_c",
+  "problems": []
+ }
+]

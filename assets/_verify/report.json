@@ -1,0 +1,446 @@
+[
+ {
+  "ok": true,
+  "meshes": 30,
+  "tris": 448,
+  "materials": 5,
+  "size": [
+   3.75,
+   1.08,
+   3.75
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.6237,
+    "edgeDensity": 0.1538
+   },
+   "right": {
+    "coverage": 0.6182,
+    "edgeDensity": 0.1107
+   },
+   "back": {
+    "coverage": 0.6141,
+    "edgeDensity": 0.1746
+   },
+   "left": {
+    "coverage": 0.6141,
+    "edgeDensity": 0.1052
+   }
+  },
+  "error": null,
+  "name": "farm_plot",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 34,
+  "tris": 660,
+  "materials": 8,
+  "size": [
+   5.8,
+   5.382,
+   5.01
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0.245
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.0249
+   },
+   "right": {
+    "coverage": 0.8754,
+    "edgeDensity": 0.0204
+   },
+   "back": {
+    "coverage": 0.9844,
+    "edgeDensity": 0.024
+   },
+   "left": {
+    "coverage": 0.8754,
+    "edgeDensity": 0.0233
+   }
+  },
+  "error": null,
+  "name": "farmhouse",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 39,
+  "tris": 1768,
+  "materials": 39,
+  "size": [
+   15.2,
+   6.457,
+   15.2
+  ],
+  "groundOffset": -0.094,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.5589,
+    "edgeDensity": 0.1139
+   },
+   "right": {
+    "coverage": 0.5467,
+    "edgeDensity": 0.1065
+   },
+   "back": {
+    "coverage": 0.6023,
+    "edgeDensity": 0.0786
+   },
+   "left": {
+    "coverage": 0.5519,
+    "edgeDensity": 0.0995
+   }
+  },
+  "error": null,
+  "name": "forest_pond",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 24,
+  "tris": 1986,
+  "materials": 7,
+  "size": [
+   1.017,
+   1.79,
+   0.816
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0.003
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3465,
+    "edgeDensity": 0.157
+   },
+   "right": {
+    "coverage": 0.2714,
+    "edgeDensity": 0.1764
+   },
+   "back": {
+    "coverage": 0.3445,
+    "edgeDensity": 0.1228
+   },
+   "left": {
+    "coverage": 0.2712,
+    "edgeDensity": 0.1682
+   }
+  },
+  "error": null,
+  "name": "player",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 19,
+  "tris": 820,
+  "materials": 19,
+  "size": [
+   9.6,
+   6.675,
+   9.6
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.472,
+    "edgeDensity": 0.0949
+   },
+   "right": {
+    "coverage": 0.463,
+    "edgeDensity": 0.0997
+   },
+   "back": {
+    "coverage": 0.4805,
+    "edgeDensity": 0.0806
+   },
+   "left": {
+    "coverage": 0.463,
+    "edgeDensity": 0.0922
+   }
+  },
+  "error": null,
+  "name": "riverside_lantern",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 33,
+  "tris": 692,
+  "materials": 9,
+  "size": [
+   8,
+   7.011,
+   6.64
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0.33
+  ],
+  "sides": {
+   "front": {
+    "coverage": 1,
+    "edgeDensity": 0.03
+   },
+   "right": {
+    "coverage": 0.826,
+    "edgeDensity": 0.0258
+   },
+   "back": {
+    "coverage": 0.9563,
+    "edgeDensity": 0.0184
+   },
+   "left": {
+    "coverage": 0.8257,
+    "edgeDensity": 0.0284
+   }
+  },
+  "error": null,
+  "name": "village_street",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 24,
+  "tris": 1848,
+  "materials": 11,
+  "size": [
+   1.065,
+   1.585,
+   0.76
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0.052,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3638,
+    "edgeDensity": 0.1534
+   },
+   "right": {
+    "coverage": 0.3095,
+    "edgeDensity": 0.1671
+   },
+   "back": {
+    "coverage": 0.3794,
+    "edgeDensity": 0.1409
+   },
+   "left": {
+    "coverage": 0.3382,
+    "edgeDensity": 0.1436
+   }
+  },
+  "error": null,
+  "name": "villager_june",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 22,
+  "tris": 1996,
+  "materials": 8,
+  "size": [
+   1.24,
+   1.84,
+   0.815
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0.05,
+   0.013
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.4016,
+    "edgeDensity": 0.1458
+   },
+   "right": {
+    "coverage": 0.2953,
+    "edgeDensity": 0.1682
+   },
+   "back": {
+    "coverage": 0.403,
+    "edgeDensity": 0.1302
+   },
+   "left": {
+    "coverage": 0.3141,
+    "edgeDensity": 0.1314
+   }
+  },
+  "error": null,
+  "name": "villager_mara",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 24,
+  "tris": 1812,
+  "materials": 10,
+  "size": [
+   1.165,
+   1.625,
+   0.69
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.001,
+   -0.045
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3567,
+    "edgeDensity": 0.1612
+   },
+   "right": {
+    "coverage": 0.3003,
+    "edgeDensity": 0.167
+   },
+   "back": {
+    "coverage": 0.3125,
+    "edgeDensity": 0.1846
+   },
+   "left": {
+    "coverage": 0.295,
+    "edgeDensity": 0.1468
+   }
+  },
+  "error": null,
+  "name": "villager_neri",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 23,
+  "tris": 1832,
+  "materials": 9,
+  "size": [
+   1.041,
+   1.503,
+   0.65
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3633,
+    "edgeDensity": 0.1797
+   },
+   "right": {
+    "coverage": 0.2917,
+    "edgeDensity": 0.1701
+   },
+   "back": {
+    "coverage": 0.3547,
+    "edgeDensity": 0.1093
+   },
+   "left": {
+    "coverage": 0.3148,
+    "edgeDensity": 0.1465
+   }
+  },
+  "error": null,
+  "name": "villager_pip",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 22,
+  "tris": 1650,
+  "materials": 10,
+  "size": [
+   0.997,
+   1.85,
+   0.85
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2933,
+    "edgeDensity": 0.1627
+   },
+   "right": {
+    "coverage": 0.268,
+    "edgeDensity": 0.1785
+   },
+   "back": {
+    "coverage": 0.253,
+    "edgeDensity": 0.159
+   },
+   "left": {
+    "coverage": 0.2676,
+    "edgeDensity": 0.1524
+   }
+  },
+  "error": null,
+  "name": "villager_rowan",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "meshes": 23,
+  "tris": 1598,
+  "materials": 9,
+  "size": [
+   1.122,
+   1.653,
+   0.632
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.044,
+   0.004
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3321,
+    "edgeDensity": 0.1305
+   },
+   "right": {
+    "coverage": 0.2736,
+    "edgeDensity": 0.1458
+   },
+   "back": {
+    "coverage": 0.3348,
+    "edgeDensity": 0.1263
+   },
+   "left": {
+    "coverage": 0.2554,
+    "edgeDensity": 0.1332
+   }
+  },
+  "error": null,
+  "name": "villager_sol",
+  "problems": []
+ }
+]
