@@ -1,4 +1,6 @@
-import * as THREE from '../node_modules/three/build/three.module.js';
+// Keep the browser build self-contained. The previous package-relative import
+// worked in the development repo but was unavailable on static deployments.
+import * as THREE from './vendor/three.module.js';
 import { createState, advanceClock, movePlayer, actOnPlot, buySeeds, castLine, collectForage, reelLine, sellItem, sleep as sleepCore, CROPS, FORAGE_NODES, ITEMS, VILLAGERS, QUESTS, villagerLocation, talkToVillager, offerGift, turnInQuest, donateLanternSupplies, beginLanternCeremony } from './core.js';
 import makePlayer from './assets/player.js';
 import makeHouse from './assets/farmhouse.js';
