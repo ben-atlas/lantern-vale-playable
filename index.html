@@ -51,6 +51,29 @@
       <p class="keys">Move WASD / arrows · Interact E · Fish F · Cycle tool Q · Seeds 1–8 · Jog Shift · Sleep at farmhouse</p>
     </div>
   </div>
-  <script type="module" src="./main.js?v=e6a9197-runtime-fix"></script>
+  <nav id="touch-controls" aria-label="Mobile game controls">
+    <div class="touch-dpad">
+      <button data-key="ArrowUp" aria-label="Move up">▲</button>
+      <button data-key="ArrowLeft" aria-label="Move left">◀</button>
+      <button data-key="ArrowDown" aria-label="Move down">▼</button>
+      <button data-key="ArrowRight" aria-label="Move right">▶</button>
+    </div>
+    <div class="touch-actions">
+      <button data-action="tool">Q<small>Tool</small></button>
+      <button data-action="interact">E<small>Use</small></button>
+      <button data-action="fish">F<small>Fish</small></button>
+    </div>
+  </nav>
+  <script>
+    // Register the tap before the large 3D module evaluates. Mobile browsers
+    // can otherwise discard a tap made while the world is still being built.
+    document.querySelector('#begin').addEventListener('click', event => {
+      if (window.__START__) return window.__START__();
+      window.__START_REQUESTED__ = true;
+      event.currentTarget.textContent = 'Entering…';
+      event.currentTarget.setAttribute('aria-busy', 'true');
+    });
+  </script>
+  <script type="module" src="./main.js?v=0607ac4-mobile-start"></script>
 </body>
 </html>

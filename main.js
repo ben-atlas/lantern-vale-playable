@@ -107,7 +107,10 @@ ui.social.addEventListener('click',e=>{if(e.target.closest('[data-social-close]'
 ui.ceremony.addEventListener('click',e=>{if(e.target.closest('[data-ceremony-close]'))ui.ceremony.classList.remove('show')});
 pause.addEventListener('click',e=>{if(e.target.matches('[data-resume]'))togglePause(false);if(e.target.matches('[data-save]')){saveGame(localStorage,state);pause.querySelector('[data-load]').disabled=false;showToast('Game saved.')}if(e.target.matches('[data-load]')){try{const loaded=loadGame(localStorage);if(loaded){restoreState(loaded);togglePause(false);showToast('Save loaded.')}else showToast('No save found.')}catch{showToast('That save could not be loaded.')}}});
 pause.addEventListener('input',e=>{const key=e.target.dataset.setting;if(!key)return;settings[key]=e.target.type==='checkbox'?e.target.checked:Number(e.target.value);persistSettings()});
-function start(){started=true;document.querySelector('#intro').classList.add('hidden');updateAtmosphere();updateUI()}document.querySelector('#begin').addEventListener('click',start);window.__START__=start;
+function start(){started=true;document.querySelector('#intro').classList.add('hidden');updateAtmosphere();updateUI()}window.__START__=start;if(window.__START_REQUESTED__)start();
+const touchControls=document.querySelector('#touch-controls');
+touchControls.addEventListener('pointerdown',e=>{const button=e.target.closest('button');if(!button)return;e.preventDefault();button.setPointerCapture?.(e.pointerId);if(button.dataset.key)keys.add(button.dataset.key);if(button.dataset.action==='tool'){toolIndex=(toolIndex+1)%tools.length;updateUI()}if(button.dataset.action==='interact')useTool();if(button.dataset.action==='fish')fish()});
+for(const eventName of ['pointerup','pointercancel','pointerleave'])touchControls.addEventListener(eventName,e=>{const button=e.target.closest('button');if(button?.dataset.key)keys.delete(button.dataset.key)});
 // A narrow deterministic seam for the browser acceptance routes. Gameplay still
 // travels through the real keyboard handlers, panels, and core story actions.
 window.__HARNESS__={
